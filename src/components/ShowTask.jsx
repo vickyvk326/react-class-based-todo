@@ -32,6 +32,7 @@ export default class ShowTask extends Component {
           </div>
         </div>
         <EachTask
+          title=""
           taskList={taskList}
           showTask={showTask}
           handleDeleteTask={this.props.handleDeleteTask}
